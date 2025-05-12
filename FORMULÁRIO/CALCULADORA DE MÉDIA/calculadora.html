@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="calcularMedia ()">
+    <script>
+        
+        function calcularMedia () {
+            let nota1 = parseFloat(prompt("Digite a nota do primeiro bimestre"));
+            let nota2 = parseFloat(prompt("Digite a nota do segundo bimestre"));
+            let nota3 = parseFloat(prompt("Digite a nota do terceiro bimestre"));
+            let nota4 = parseFloat(prompt("Digite a nota do quarto bimestre"));
+
+            let media = (nota1 + nota2 + nota3 + nota4) /4;
+
+           
+        } if (media <=4) {
+            alert (prompt("O aluno tem a média " + media + " foi reprovado!"));
+        } else if (media >=7) {
+            alert("O aluno foi aprovado!");
+        } else {
+            alert("O aluno esta de recuperação")
+        }
+
+    </script>
+</body>
+</html>
